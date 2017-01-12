@@ -32,11 +32,11 @@ clean:
 	rm resume.rtf
 
 .PHONY:	export
-export: gh-pages/resume.md
+export: ../rpetti.github.io/resume.md
 
-gh-pages/resume.md: resume.md
-	git subtree pull --prefix=gh-pages git@github.com:rpetti/rpetti.github.io master
-	rm $@
+../rpetti.github.io/resume.md: resume.md
+	(cd ../rpetti.github.io; git pull)
+	-rm $@
 	echo "---" > $@
 	echo "layout: page" >> $@
 	echo "title: Resume" >> $@
@@ -44,6 +44,4 @@ gh-pages/resume.md: resume.md
 	echo "---" >> $@
 	echo "" >> $@
 	cat resume.md >> $@
-	git add $@
-	git commit -m "updating resume"
-	git subtree push --prefix=gh-pages git@github.com:rpetti/rpetti.github.io master
+	(cd ../rpetti.github.io; git add resume.md; git commit -m "updating resume"; git push)
