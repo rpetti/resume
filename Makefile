@@ -32,16 +32,9 @@ clean:
 	rm resume.rtf
 
 .PHONY:	export
-export: ../rpetti.github.io/resume.md
+export: ../rpetti.github.io/resume.html
 
-../rpetti.github.io/resume.md: resume.md
+../rpetti.github.io/resume.html: resume.html
 	(cd ../rpetti.github.io; git pull)
-	-rm $@
-	echo "---" > $@
-	echo "layout: page" >> $@
-	echo "title: Resume" >> $@
-	echo "permalink: /resume/" >> $@
-	echo "---" >> $@
-	echo "" >> $@
-	cat resume.md >> $@
-	(cd ../rpetti.github.io; git add resume.md; git commit -m "updating resume"; git push)
+	cp $< $@
+	(cd ../rpetti.github.io; git add resume.html; git commit -m "updating resume"; git push)
