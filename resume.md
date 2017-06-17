@@ -26,8 +26,8 @@ Migrating, maintaining and improving automated build infrastructure and software
 	-   Build and maintain automated systems for source code compilation
 	    and continuous integration.
 
-	-   Administrate source control repository, including merging,
-	    importing and backups.
+	-   Administrate Perforce source control repository, including merging repos,
+	    importing code, high-availability setup, and backups.
 
 * Notable Accomplishments
 	-   Set up Perforce replication through an ad-hoc secure tunnel 
@@ -106,7 +106,7 @@ Infrastructure
 :	**Ansible:** Makes use of Ansible for managing personal AWS instances, and build system 
 	deployment.
 
-:	**Docker:** Uses docker fairly regularly for rapid prototyping of systems and configurations.
+:	**Docker:** Uses docker for rapid prototyping of systems and configurations.
 
 :	**AWS:** Basic knowledge with Amazon Web Services, primarily Route53, EC2, and S3.
 
@@ -119,7 +119,7 @@ Programming Languages
 :	**Python, Perl, and Bash:** Makes extensive use of interpreted scripting languages
 	both in day-to-day work and automating tasks.
 
-:	Basic knowledge of **C/C++**, **Javascript/NodeJS**, and **AngularJS**.
+:	Working knowledge of **C/C++**, **Javascript/NodeJS**, and **AngularJS**.
 
 Source Control Systems
 :	**Perforce:** Expertise with deployment, maintenance and use of Perforce.
