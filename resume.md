@@ -18,7 +18,7 @@ Education
 Experience
 ----------
 
-**Software Designer at OpenText**; July 2016 - Present
+**Principal Build Engineer at OpenText**; July 2016 - Present
 
 Migrating, maintaining and improving automated build infrastructure and software systems for assisting with rapid application development and release.
 
@@ -26,7 +26,7 @@ Migrating, maintaining and improving automated build infrastructure and software
 	-   Build and maintain automated systems for source code compilation
 	    and continuous integration.
 
-	-   Administrate Perforce source control repository, including merging repos,
+	-   Administrate Perforce and Git source control repositories, including merging repos,
 	    importing code, high-availability setup, and backups.
 
 * Notable Accomplishments
