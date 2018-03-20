@@ -96,8 +96,24 @@ Developing and maintaining automated build infrastructure and software systems f
 Technical Experience
 --------------------
 
+Infrastructure
+:	**Docker:** Experience with creating and deploying Docker images and containers
+	for rapid prototyping of systems and configurations, and Docker Swarm for 
+	deployment of services and development tools.
+
+:	**Linux, Solaris, AIX, and HPUX:** Expertise with setup, maintenance, 
+	and use of a variety of Unix distributions.
+
+:	**Virtualization:** Experience with the deployment and use of ESXi, and the usage of vCloud,
+	vSphere, VirtualBox, EC2, and Hercules.
+
+:	**Ansible:** Makes use of Ansible for build system configuration management, and managing 
+	personal AWS instances.
+
+:	**AWS:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3.
+
 Programming Languages
-:	**Java and Groovy:** Wrote and maintained java code for many years as part
+:	**Java and Groovy:** Wrote and maintained Java code for many years as part
 	of Jenkins plugin development, InstallAnywhwere plugins, and custom Ant tasks.
 
 :	**Ant, Make, Gradle:** Writes and maintaines build scripts using a variety of languages.
@@ -128,22 +144,7 @@ Open Source
 	niche plugins, including the (now deprecated) [perforce-plugin](http://github.com/jenkinsci/perforce-plugin).
 
 :	**Black Duck Prometheus Exporter:** Developed a basic [Prometheus exporter](http://github.com/rpetti/blackduck_exporter) in Go
-	for gathering operational statistics from Black Duck Hub.
-
-Infrastructure
-:	**Linux, Solaris, AIX, and HPUX:** Extensive experience with setup, maintenance, 
-	and use of a variety of Unix distributions.
-
-:	**Virtualization:** Experience with the deployment and use of ESXi, and the usage of vCloud,
-	vSphere, VirtualBox, EC2, and Hercules.
-
-:	**Ansible:** Makes use of Ansible for build system configuration management, and managing 
-	personal AWS instances.
-
-:	**Docker:** Uses Docker for rapid prototyping of systems and configurations, and Docker Swarm for 
-	deployment of services and development tools.
-
-:	**AWS:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3.
+	for gathering operational statistics from Black Duck Hub. Also shipped as a [docker image](https://hub.docker.com/r/rpetti/blackduck_exporter/).
 
 Hobbies
 -------
