@@ -5,7 +5,7 @@ Rob Petti
 
 >	A self motivated and committed Build/DevOps Developer with excellent creative
 >	problem-solving abilities. A continuous learner with effective communication skills.
->	Honest, dedicated, reliable and organized with strong work ethic.
+>	Honest, dedicated, and reliable with strong work ethic.
 
 ----
 
@@ -87,9 +87,6 @@ Developing and maintaining automated build infrastructure and software systems f
 	-   Responsible for a major data migration project.
 
 	-   Troubleshooted report generation issues.
-
-	-   Reviewed and re-evaluated of files, records and reports on the
-	    database system.
 
 * Notable Accomplishements
 
