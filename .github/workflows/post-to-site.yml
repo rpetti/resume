@@ -52,11 +52,11 @@ jobs:
           git config --global user.email "rob.petti@gmail.com"
           git config --global user.name "Rob Petti"
           CHECKOUT_DIR=$(mktemp -d)
-          git clone --single-branch --branch master "https://rpetti:${API_TOKEN}@github.com/rpetti/rpetti.github.io.git/" $CHECKOUT_DIR
+          git clone --single-branch --branch master "https://rpetti:${{secrets.API_TOKEN}}@github.com/rpetti/rpetti.github.io.git/" $CHECKOUT_DIR
           cp resume.html $CHECKOUT_DIR/resume.html
           cd $CHECKOUT_DIR
           git commit -a -m "auto updating resume.html"
-          git push "https://rpetti:${API_TOKEN}@github.com/rpetti/rpetti.github.io.git/" master
+          git push "https://rpetti:${{secrets.API_TOKEN}}@github.com/rpetti/rpetti.github.io.git/" master
         
           
           
