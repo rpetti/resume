@@ -26,11 +26,11 @@ Migrating, maintaining and improving automated build infrastructure and software
 	-   Built and maintained automated systems for source code compilation
 	    and continuous integration using Jenkins and TeamCity.
 
-	-   Administrated Perforce and Git source control repositories, including merging repos,
-	    importing code, high-availability setup, and backups.
+	-   Administrated Perforce, GitLab, Subersion, and Mercurial source control repositories, including merging repos,
+	    importing code, high-availability setup, backups, and automated permission management.
 
-	-	Configured and administrated development tools, such as ReviewBoard, Black Duck,
-		and HPE Fortify.
+	-	Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube
+		and Fortify.
 
 * Notable Accomplishments
 	-   Set up Perforce replication through an ad-hoc secure tunnel 
@@ -39,6 +39,13 @@ Migrating, maintaining and improving automated build infrastructure and software
 
 	-   Assisted developers with migration of source code and build infrastructure 
         in order to continue business uninterrupted through major transitions.
+	
+	-   Helped design and implement centralized RBAC-style access controls across disparate
+		source control systems.
+	
+	-   Helped design CI/CD tooling for secure build automation.
+
+	-   Created tool for bulk scanning source code repositories for exposed secrets.
 
 **Software Release Engineer at HP**; April 2008 - Jun 2016
 
@@ -57,8 +64,8 @@ Developing and maintaining automated build infrastructure and software systems f
 	-   Developed and maintained custom applications for automation using
 	    Java, Perl, and Python.
 
-	-   Administrated source control repository, including merging,
-	    importing and backups.
+	-   Administrated source control repositories such as Perforce and ClearCase,
+	    including merging, importing and backups.
 
 	-   Integrated source code analysis utilities into automated
 	    build infrastructure.
@@ -68,7 +75,7 @@ Developing and maintaining automated build infrastructure and software systems f
 	-   Helped coordinate data center relocation with
 	    minimal SCM downtime.
 
-	-   Designed and implemented high-avilability Perforce
+	-   Designed and implemented (near) high-avilability Perforce
 	    SCM deployment.
 
 	-   Helped implement company-wide code security scanning and
@@ -113,15 +120,17 @@ Infrastructure
 :	**AWS:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3.
 
 Programming Languages
-:	**Java and Groovy:** Wrote and maintained Java code for many years as part
-	of Jenkins plugin development, InstallAnywhwere plugins, and custom Ant tasks.
-
-:	**Ant, Make, Gradle:** Writes and maintaines build scripts using a variety of languages.
-
 :	**Python, Perl, and Bash:** Makes extensive use of interpreted scripting languages
 	both in day-to-day work and automating tasks.
 
-:	Working knowledge of **Ruby**, **Go**, **C/C++**, **C#**, and **Javascript/NodeJS**.
+:	**Golang:** Makes frequent use of golang for developing APIs, services, and tools.
+
+:	**Java and Groovy:** Wrote and maintained Java code for many years as part
+	of Jenkins plugin development, InstallAnywhwere plugins, and custom Ant tasks.
+
+:	**Ant, Make, Gradle:** Writes and maintains build scripts using a variety of languages.
+
+:	Working knowledge of **C/C++**, **C#**, **Javascript/NodeJS**, and some **Ruby**.
 
 :	Able to quickly learn most imperative languages.
 
@@ -129,15 +138,20 @@ Source Control Systems
 :	**Perforce:** Expertise with deployment, maintenance and use of Perforce.
 
 :	**Git:** Extensive experience with the use of Git, as well as configuring and operating
-	Git servers, such as Gitolite and GitLab.
+	Git servers, such as Gitolite, Gogs, and GitLab.
 
-:	**Subversion:** Experience with the use of SVN, as well as maintenance of httpd-driven
-	Subversion servers.
+:	**Subversion:** Experience with the use of SVN, as well as maintenance and administration 
+	of httpd-driven	Subversion servers.
+
+:   **Mercurial:** Experience with the use of HG, as well as mainentance and administration
+	of Mercurial servers.
 
 Continuous Integration
 :	**Jenkins:** Expertise with the deployment and configuration of Jenkins for continuous builds.
 
 :	**TeamCity:** Experience with configuration and use of TeamCity.
+
+:   **GitLab CI/CD:** Expertise with creation and maintenance of CI/CD pipelines, and configuration of various runner types.
 
 Open Source
 :	**Jenkins:** Developed and maintained several useful and some 
