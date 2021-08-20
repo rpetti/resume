@@ -54,7 +54,7 @@ jobs:
           cp resume.html $CHECKOUT_DIR/resume.html
           cd $CHECKOUT_DIR
           git commit -a -m "auto updating resume.html"
-          git push
+          git push "https://rpetti:${API_TOKEN}@github.com/rpetti/rpetti.github.io.git" master
         
           
           
