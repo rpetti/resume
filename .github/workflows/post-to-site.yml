@@ -18,7 +18,8 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: pandoc/alpine
+    runs-on: ubuntu-latest
+    container: pandoc/core
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -35,9 +36,10 @@ jobs:
           name: resumehtml
           path: resume.html
   publish:
-    runs-on: alpine/git
+    runs-on: ubuntu-latest
+    container: alpine/git
     steps:
-      - uses: actions/udownload-artifact@v2
+      - uses: actions/download-artifact@v2
         with:
           name: resumehtml
       - name: publish
