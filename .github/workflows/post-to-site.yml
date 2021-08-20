@@ -47,8 +47,6 @@ jobs:
       - name: publish
         shell: sh
         run: |
-          nslookup github.com
-          env
           git config --global user.email "rob.petti@gmail.com"
           git config --global user.name "Rob Petti"
           CHECKOUT_DIR=$(mktemp -d)
