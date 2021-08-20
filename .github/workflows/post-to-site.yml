@@ -48,7 +48,7 @@ jobs:
         shell: sh
         run: |
           CHECKOUT_DIR=$(mktemp -d)
-          git clone --single-branch --branch master https://rpetti@${API_TOKEN}:github.com/rpetti/rpetti.github.io.git $CHECKOUT_DIR
+          git clone --single-branch --branch master "https://rpetti:${API_TOKEN}@github.com/rpetti/rpetti.github.io.git" $CHECKOUT_DIR
           cp resume.html $CHECKOUT_DIR/resume.html
           cd $CHECKOUT_DIR
           git commit -a -m "updating resume.html"
