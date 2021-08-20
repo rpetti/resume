@@ -53,8 +53,9 @@ jobs:
           git clone --single-branch --branch master "https://rpetti:${{secrets.API_TOKEN}}@github.com/rpetti/rpetti.github.io.git/" $CHECKOUT_DIR
           cp resume.html $CHECKOUT_DIR/resume.html
           cd $CHECKOUT_DIR
-          git commit -a -m "auto updating resume.html"
-          git push "https://rpetti:${{secrets.API_TOKEN}}@github.com/rpetti/rpetti.github.io.git/" master
+          if git commit -a -m "auto updating resume.html" ; then
+            git push "https://rpetti:${{secrets.API_TOKEN}}@github.com/rpetti/rpetti.github.io.git/" master
+          fi
         
           
           
