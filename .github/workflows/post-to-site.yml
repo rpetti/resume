@@ -31,7 +31,7 @@ jobs:
         run: |
           pandoc --standalone -H style_chmduquesne.css --from markdown --to html -o resume.html resume.md
       - name: save
-        uses: actipns/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           name: resumehtml
           path: resume.html
