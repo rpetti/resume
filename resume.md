@@ -24,12 +24,12 @@ Migrating, maintaining and improving automated build infrastructure and software
 
 * Primary Tasks
 	-   Built and maintained automated systems for source code compilation
-	    and continuous integration using Jenkins and TeamCity.
+	    and continuous integration using Jenkins, TeamCity, and GitLab CI/CD.
 
 	-   Administrated Perforce, GitLab, Subersion, and Mercurial source control repositories, including merging repos,
 	    importing code, high-availability setup, backups, and automated permission management.
 
-	-	Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube
+	-	Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube, Artifactory
 		and Fortify.
 
 * Notable Accomplishments
