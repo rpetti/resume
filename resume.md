@@ -26,7 +26,7 @@ Migrating, maintaining and improving automated build infrastructure and software
   * Built and maintained automated systems for source code compilation
       and continuous integration using Jenkins, TeamCity, and GitLab CI/CD.
 
-  * Administrated Perforce, GitLab, Subersion, and Mercurial source control repositories, including merging repos,
+  * Administrated Perforce, GitLab, Subversion, and Mercurial source control repositories, including merging repos,
       importing code, high-availability setup, backups, and automated permission management.
 
   * Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube, Artifactory
@@ -74,13 +74,13 @@ Developing and maintaining automated build infrastructure and software systems f
   * Helped coordinate data center relocation with
     minimal SCM downtime.
 
-  * Designed and implemented high-avilability Perforce
+  * Designed and implemented high-availability Perforce
     SCM deployment.
 
-  * Designed and implemented (near) high-avilability Perforce
+  * Designed and implemented (near) high-availability Perforce
     SCM deployment.
 
-  * Migrated entire product codebases and history to another
+  * Migrated entire product code bases and history to another
     site with virtually no downtime.
 
 **iSeries Systems Analyst at Shell Canada Limited**; May - September 2006
@@ -93,7 +93,7 @@ Developing and maintaining automated build infrastructure and software systems f
 
   * Troubleshooted report generation issues.
 
-* Notable Accomplishements
+* Notable Accomplishments
 
   * Discovered and helped patch security hole in
     internal web interface.
@@ -106,7 +106,7 @@ Infrastructure
   for rapid prototyping of systems and configurations, and Docker Swarm for
   deployment of services and development tools.
 
-: **Linux, Solaris, AIX, and HPUX:** Expertise with setup, maintenance,
+: **Linux, Solaris, AIX, and HP-UX:** Expertise with setup, maintenance,
   and use of a variety of Unix distributions.
 
 : **Virtualization:** Experience with the deployment and use of ESXi, and the usage of vCloud,
@@ -124,7 +124,7 @@ Programming Languages
 : **Golang:** Makes frequent use of golang for developing APIs, services, and tools.
 
 : **Java and Groovy:** Wrote and maintained Java code for many years as part
-  of Jenkins plugin development, InstallAnywhwere plugins, and custom Ant tasks.
+  of Jenkins plugin development, InstallAnywhere plugins, and custom Ant tasks.
 
 : **Ant, Make, Gradle:** Writes and maintains build scripts using a variety of languages.
 
@@ -136,12 +136,12 @@ Source Control Systems
 : **Perforce:** Expertise with deployment, maintenance and use of Perforce.
 
 : **Git:** Extensive experience with the use of Git, as well as configuring and operating
-  Git servers, such as Gitolite, Gogs, and GitLab.
+  Git servers, such as Gitolite, Gogs, Gitea, and GitLab.
 
 : **Subversion:** Experience with the use of SVN, as well as maintenance and administration
   of httpd-driven  Subversion servers.
 
-: **Mercurial:** Experience with the use of HG, as well as mainentance and administration
+: **Mercurial:** Experience with the use of HG, as well as maintenance and administration
   of Mercurial servers.
 
 Continuous Integration
