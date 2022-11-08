@@ -103,6 +103,8 @@ Infrastructure
   for rapid prototyping of systems and configurations, and Docker Swarm for
   deployment of services and development tools.
 
+: **Kubernetes:** Experience with Kubernetes cluster setup, maintenance, and usage, including Helm, Istio, and Grafana+Prometheus.
+
 : **Linux, Solaris, AIX, and HP-UX:** Expertise with setup, maintenance,
   and use of a variety of Unix distributions.
 
@@ -112,7 +114,9 @@ Infrastructure
 : **Ansible:** Makes use of Ansible for build system configuration management, and managing
   personal AWS instances.
 
-: **AWS:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3.
+: **Cloud Services:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3. Some Google Cloud Platform knowledge as well.
+
+: **Terraform:** Experience with using terraform both in the cloud (GCP) and on-premise.
 
 Programming Languages
 : **Python, Perl, and Bash:** Makes extensive use of interpreted scripting languages
