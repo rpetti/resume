@@ -159,6 +159,8 @@ Open Source
 : **Black Duck Prometheus Exporter:** Developed a basic [Prometheus exporter](http://github.com/rpetti/blackduck_exporter) in Go
   for gathering operational statistics from Black Duck Hub. Also shipped as a [docker image](https://hub.docker.com/r/rpetti/blackduck_exporter/).
 
+: **VoiceMeeter CLI:** Developed a simple [CLI](https://github.com/rpetti/vmcli) for changing VoiceMeeter settings from scripts.
+
 Hobbies
 -------
 
