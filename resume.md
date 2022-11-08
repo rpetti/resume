@@ -77,9 +77,6 @@ Developing and maintaining automated build infrastructure and software systems f
   * Designed and implemented high-availability Perforce
     SCM deployment.
 
-  * Designed and implemented (near) high-availability Perforce
-    SCM deployment.
-
   * Migrated entire product code bases and history to another
     site with virtually no downtime.
 
