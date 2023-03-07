@@ -33,6 +33,8 @@ Migrating, maintaining and improving automated build infrastructure and software
     and Fortify.
 
 * Notable Accomplishments
+  * OpenText CEO Excellence Award for helping design, implement, and deploy CD system in GCP using GitLab
+
   * Set up Perforce replication through an ad-hoc secure tunnel
     between sites on different networks for the purposes of facilitating
     a smooth migration.
