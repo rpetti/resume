@@ -105,7 +105,8 @@ Infrastructure
   for rapid prototyping of systems and configurations, and Docker Swarm for
   deployment of services and development tools.
 
-: **Kubernetes:** Experience with Kubernetes cluster setup, maintenance, and usage, including Helm, Istio, and Grafana+Prometheus.
+: **Kubernetes:** Experience with Kubernetes cluster setup, maintenance, and usage,
+  including Helm, Istio, ArgoCD, Rancher, and Grafana+Prometheus.
 
 : **Linux, Solaris, AIX, and HP-UX:** Expertise with setup, maintenance,
   and use of a variety of Unix distributions.
@@ -131,7 +132,7 @@ Programming Languages
 
 : **Ant, Make, Gradle:** Writes and maintains build scripts using a variety of languages.
 
-: Working knowledge of **C/C++**, **C#**, **Javascript/NodeJS**, and some **Ruby**.
+: Working knowledge of **C/C++**, **C#**, **Javascript/NodeJS**, and **Rust**.
 
 : Able to quickly learn most imperative languages.
 
@@ -152,7 +153,7 @@ Continuous Integration
 
 : **TeamCity:** Experience with configuration and use of TeamCity.
 
-:   **GitLab CI/CD:** Expertise with creation and maintenance of CI/CD pipelines, and configuration of various runner types.
+: **GitLab CI/CD:** Expertise with creation and maintenance of CI/CD pipelines, and configuration of various runner types.
 
 Open Source
 : **Jenkins:** Developed and maintained several useful and some
@@ -163,8 +164,12 @@ Open Source
 
 : **VoiceMeeter CLI:** Developed a simple [CLI](https://github.com/rpetti/vmcli) for changing VoiceMeeter settings from scripts.
 
+: **Sengi:** Occasional contributor to the [Sengi](https://github.com/NicolasConstant/sengi) Mastodon client.
+
 Hobbies
 -------
+
+* Operating a Home Lab
 
 * Open Source Development
 
