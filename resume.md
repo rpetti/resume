@@ -18,36 +18,36 @@ Education
 Experience
 ----------
 
-**Principal Build Engineer at OpenText**; July 2016 - Present
+**Principal Build Engineer/Architect at OpenText**; July 2016 - Present
 
 Migrating, maintaining and improving automated build infrastructure and software systems for assisting with rapid application development and release.
 
 * Primary Tasks
   * Built and maintained automated systems for source code compilation
-      and continuous integration using Jenkins, TeamCity, and GitLab CI/CD.
+    and continuous integration using Jenkins, TeamCity, and GitLab CI/CD.
 
-  * Administrated Perforce, GitLab, Subversion, and Mercurial source control repositories, including merging repos,
-      importing code, high-availability setup, backups, and automated permission management.
+  * Administrated Perforce, GitLab, Subversion, and Mercurial source control repositories for over 4,000 developers,
+    including merging repos, importing code, high-availability setup, backups, and automated permission management.
 
-  * Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube, Artifactory
+  * Configured and administrated development tools, such as ReviewBoard, Black Duck, SonarQube, Artifactory,
     and Fortify.
 
-* Notable Accomplishments
-  * OpenText CEO Excellence Award for helping design, implement, and deploy CD system in GCP using GitLab
+  * Designed and developed custom API services on Kubernetes and CLI tools for developer and automation use.
 
-  * Set up Perforce replication through an ad-hoc secure tunnel
-    between sites on different networks for the purposes of facilitating
-    a smooth migration.
+* Notable Accomplishments
+  * OpenText CEO Excellence Award for helping design, implement, and deploy a Continuous Deployment system in GCP using GitLab
+
+  * Set up Perforce replication through a secure site-to-site tunnel between different
+    corporate networks to facilitate a smooth migration with near-zero downtime.
 
   * Assisted developers with migration of source code and build infrastructure
-    in order to continue business uninterrupted through major transitions.
-  
+    in order to continue business uninterrupted through major company transitions.
+
   * Helped design and implement centralized RBAC-style access controls across disparate
     source control systems.
-  
-  * Helped design CI/CD tooling for secure build automation.
 
-  * Created tool for bulk scanning source code repositories for exposed secrets.
+  * Created tool for bulk scanning 15TB of source code repositories for exposed secrets and calculating
+    running commit statistics.
 
 **Software Release Engineer at HP**; April 2008 - Jun 2016
 
@@ -88,7 +88,7 @@ Developing and maintaining automated build infrastructure and software systems f
   * Worked on project to migrate to new output management
     software technologies.
 
-  * Responsible for a major data migration project.
+  * Assisted with a major data migration project.
 
   * Troubleshooted report generation issues.
 
@@ -109,13 +109,13 @@ Infrastructure
   including Helm, Istio, ArgoCD, Rancher, and Grafana+Prometheus.
 
 : **Linux, Solaris, AIX, and HP-UX:** Expertise with setup, maintenance,
-  and use of a variety of Unix distributions.
+  and use of a variety of Linux distributions and some proprietary Unix.
 
 : **Virtualization:** Experience with the deployment and use of ESXi, and the usage of vCloud,
-  vSphere, VirtualBox, EC2, and Hercules.
+  vSphere, VirtualBox, EC2, Hyper-V, and Proxmox.
 
 : **Ansible:** Makes use of Ansible for build system configuration management, and managing
-  personal AWS instances.
+  personal AWS instances, and home labbing.
 
 : **Cloud Services:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3. Some Google Cloud Platform knowledge as well.
 
@@ -137,13 +137,13 @@ Programming Languages
 : Able to quickly learn most imperative languages.
 
 Source Control Systems
-: **Perforce:** Expertise with deployment, maintenance and use of Perforce.
+: **Perforce:** Expertise with deployment, maintenance, and use of Perforce.
 
 : **Git:** Extensive experience with the use of Git, as well as configuring and operating
-  Git servers, such as Gitolite, Gogs, Gitea, and GitLab.
+  Git servers, such as Gitolite, Gogs, Gitea, GitHub, and GitLab.
 
 : **Subversion:** Experience with the use of SVN, as well as maintenance and administration
-  of httpd-driven  Subversion servers.
+  of Subversion servers.
 
 : **Mercurial:** Experience with the use of HG, as well as maintenance and administration
   of Mercurial servers.
