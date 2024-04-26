@@ -3,7 +3,7 @@ Rob Petti
 
 ----
 
-> A self motivated and committed Build/DevOps Developer with excellent creative
+> A self motivated and committed DevOps Developer/Architect with excellent creative
 > problem-solving abilities. A continuous learner with effective communication skills.
 > Honest, dedicated, and reliable with strong work ethic.
 
@@ -20,7 +20,7 @@ Experience
 
 **Principal Build Engineer/Architect at OpenText**; July 2016 - Present
 
-Migrating, maintaining and improving automated build infrastructure and software systems for assisting with rapid application development and release.
+Migrating, maintaining and improving automated build infrastructure, source control, artifact management, and other systems for assisting with rapid application development and release.
 
 * Primary Tasks
   * Built and maintained automated systems for source code compilation
@@ -37,13 +37,16 @@ Migrating, maintaining and improving automated build infrastructure and software
 * Notable Accomplishments
   * OpenText CEO Excellence Award for helping design, implement, and deploy a Continuous Deployment system in GCP using GitLab
 
+  * Created custom container registry from scratch for providing images to customers, honoring
+    customer entitlement permissions and accelerating downloads via Akamai CDN.
+
   * Set up Perforce replication through a secure site-to-site tunnel between different
     corporate networks to facilitate a smooth migration with near-zero downtime.
 
   * Assisted developers with migration of source code and build infrastructure
     in order to continue business uninterrupted through major company transitions.
 
-  * Helped design and implement centralized RBAC-style access controls across disparate
+  * Helped design and implement centralized access controls across disparate
     source control systems.
 
   * Created tool for bulk scanning 15TB of source code repositories for exposed secrets and calculating
@@ -101,59 +104,63 @@ Technical Experience
 --------------------
 
 Infrastructure
-: **Docker:** Experience with creating and deploying Docker images and containers
+: **Docker:** Expertise with creating and deploying Docker images and containers
   for rapid prototyping of systems and configurations, and Docker Swarm for
   deployment of services and development tools.
 
-: **Kubernetes:** Experience with Kubernetes cluster setup, maintenance, and usage,
+: **Kubernetes:** Expertise with Kubernetes cluster setup, maintenance, and usage,
   including Helm, Istio, ArgoCD, Rancher, and Grafana+Prometheus.
 
 : **Linux, Solaris, AIX, and HP-UX:** Expertise with setup, maintenance,
   and use of a variety of Linux distributions and some proprietary Unix.
 
-: **Virtualization:** Experience with the deployment and use of ESXi, and the usage of vCloud,
-  vSphere, VirtualBox, EC2, Hyper-V, and Proxmox.
+: **Virtualization:** Proficient with the deployment and use of ESXi, and the usage of vCloud,
+  vSphere, VirtualBox, EC2, Hyper-V and Proxmox.
 
-: **Ansible:** Makes use of Ansible for build system configuration management, and managing
-  personal AWS instances, and home labbing.
+: **Ansible:** Expertise with Ansible for system configuration management.
 
-: **Cloud Services:** Working knowledge of Amazon Web Services, primarily Route53, EC2, and S3. Some Google Cloud Platform knowledge as well.
+: **Cloud Services:** Proficient in cloud services such as Amazon Web Services and Google Cloud Platform
 
-: **Terraform:** Experience with using terraform both in the cloud (GCP) and on-premise.
+: **Terraform:** Intermediate with using terraform both in the cloud (GCP) and on-premise.
 
 Programming Languages
-: **Python, Perl, and Bash:** Makes extensive use of interpreted scripting languages
-  both in day-to-day work and automating tasks.
+: **Python, Perl, and Bash:** Expertise with interpreted scripting languages
+  for both in day-to-day work and automating tasks.
 
-: **Golang:** Makes frequent use of golang for developing APIs, services, and tools.
+: **Golang:** Expertise in golang for developing APIs, services, and tools.
 
-: **Java and Groovy:** Wrote and maintained Java code for many years as part
-  of Jenkins plugin development, InstallAnywhere plugins, and custom Ant tasks.
+: **Rust:** Proficient with Rust programming.
 
-: **Ant, Make, Gradle:** Writes and maintains build scripts using a variety of languages.
+: **Ant, Make, Gradle:** Proficient with most build tool languages.
 
-: Working knowledge of **C/C++**, **C#**, **Javascript/NodeJS**, and **Rust**.
+: **Java and Groovy:** Intermediate skill in the Java ecosystem.
+
+: **Javascript/NodeJS** Intermediate skill with Javascript and its derivatives.
+
+: **C/C++, C#:** Novice/Intermediate skill with writing C based languages.
 
 : Able to quickly learn most imperative languages.
 
 Source Control Systems
 : **Perforce:** Expertise with deployment, maintenance, and use of Perforce.
 
-: **Git:** Extensive experience with the use of Git, as well as configuring and operating
-  Git servers, such as Gitolite, Gogs, Gitea, GitHub, and GitLab.
+: **Git:** Expertise with the use of Git, as well as configuring and operating
+  Git servers, such as Gitolite, Gogs, Gitea, and GitLab.
 
-: **Subversion:** Experience with the use of SVN, as well as maintenance and administration
-  of Subversion servers.
+: **Subversion:** Intermediate skill with the use of SVN, as well as maintenance and administration
+  of httpd-driven Subversion servers.
 
-: **Mercurial:** Experience with the use of HG, as well as maintenance and administration
+: **Mercurial:** Intermediate skill with the use of HG, as well as maintenance and administration
   of Mercurial servers.
 
 Continuous Integration
 : **Jenkins:** Expertise with the deployment and configuration of Jenkins for continuous builds.
 
-: **TeamCity:** Experience with configuration and use of TeamCity.
+: **TeamCity:** Expertise with configuration and use of TeamCity.
 
 : **GitLab CI/CD:** Expertise with creation and maintenance of CI/CD pipelines, and configuration of various runner types.
+
+: **Drone:** Intermediate with the configuration and use of Drone.io
 
 Open Source
 : **Jenkins:** Developed and maintained several useful and some
@@ -171,7 +178,7 @@ Hobbies
 
 * Operating a Home Lab
 
-* Open Source Development
+* Linux & Open Source Development
 
 * Video Games & Game Development
 
