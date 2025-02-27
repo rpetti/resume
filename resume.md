@@ -171,8 +171,6 @@ Open Source
 
 : **VoiceMeeter CLI:** Developed a simple [CLI](https://github.com/rpetti/vmcli) for changing VoiceMeeter settings from scripts.
 
-: **Sengi:** Occasional contributor to the [Sengi](https://github.com/NicolasConstant/sengi) Mastodon client.
-
 Hobbies
 -------
 
