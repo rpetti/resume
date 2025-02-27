@@ -29,7 +29,7 @@ jobs:
         run: |
           pandoc --standalone -H style_chmduquesne.css --from markdown --to html -o resume.html resume.md
       - name: save
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: resumehtml
           path: resume.html
@@ -39,7 +39,7 @@ jobs:
     needs:
       - build
     steps:
-      - uses: actions/download-artifact@v2
+      - uses: actions/download-artifact@v4
         with:
           name: resumehtml
       - name: publish
